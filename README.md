@@ -39,10 +39,8 @@ git clone https://github.com/seu-usuario/portfolio-carlos-cerqueira.git
 
 2. Acesse o diretório do projeto:
 
-bash
-
 ```bash
-cd portfolio-carlos-cerqueira
+cd PortfolioDjango
 ```
 3. Instale as dependências:
 
