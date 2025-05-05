@@ -1,0 +1,293 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Portfólio - Carlos Cerqueira</title>
+    <link rel="stylesheet" href="{% static 'home/styles/home.css' %}">
+  </head>
+  <body>
+    <main>
+      <div class="wrap">
+        <div class="bg-video">
+            <video autoplay muted loop playsinline src="{% static 'home/images/bg.mp4' %}"></video>
+        </div>
+
+      <div class="hero-container">
+        <nav>
+          <h1>Carlos Cerqueira</h1>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Habilidades</a></li>
+            <li><a href="">Projetos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav>
+  
+        <section class="hero">
+          <h2>Olá, Eu sou Carlos Cerqueira</h2>
+          <h2>Desenvolvedor Web</h2>
+  
+          <div class="links-wrapper">
+            <a target="_blank" href="https://github.com/Carlos-Cerqueira">
+              <img src="{% static 'home/images/github.svg' %}" alt="Github" class="social-icon">GitHub
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/carlos-eduardo-cerqueira-leite-323b4a227">
+              <img src="{% static 'home/images/linkedin.svg' %}" alt="LinkedIn" class="social-icon">LinkedIn
+            </a>
+          </div>
+        </section>
+      </div> 
+    </main>
+
+    <section class="sobre">
+      <img src="{% static 'home/images/fotoPerfil.svg' %}" alt="Carlos Cerqueira" class="foto-perfil">
+      <p>Profissional em desenvolvimento web e mobile com experiência em Django, React, React Native, Angular, Python, TypeScript, MongoDB, SQLite e MySQL, além de ferramentas como Figma, Notion e Trello.</p>
+
+      <div class="item-container">
+        <div class="item instituicao">
+          <div class="titulo-wrapper">
+            <img src="{% static 'home/images/fatec.svg' %}" alt="Fatec Rio Preto" class="logo-instituicao">
+            <h1>Fatec Rio Preto</h1>
+          </div>
+
+          <h2>Análise e Desenvolvimento de Sistemas</h2>
+          <p>Especialização: C, C++ e Python</p>
+        </div>
+
+        <div class="item instituicao">
+          <div class="titulo-wrapper">
+            <img src="{% static 'home/images/etec.svg' %}" alt="ETEC Philadelpho Gouvêa Netto" class="logo-instituicao">
+            <h1>ETEC Philadelpho Gouvêa Netto</h1>
+          </div>
+
+          <h2>Desenvolvimento de Sistemas</h2>
+          <p>Especialização: C, C++, Java, PHP e JavaScript</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos">
+      <section class="msg">
+        <div class="msg-wrapper">
+          <h1>Este portfólio é uma extensão do meu trabalho: claro, funcional e orientado a resultados.</h1>
+          <p>Desenvolvido com Django, este site apresenta minhas competências em desenvolvimento web e mobile, além de experiências, projetos e formas de contato profissional.</p>
+        </div>
+        {% comment %} <img src="{% static 'home/images/python.svg' %}" alt="Python" class="logo-msg"> {% endcomment %}
+      </section>
+
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://www.figma.com/proto/Q19YGKD3H2kQFVlCymBa8F/TourMate?page-id=0%3A1&node-id=7-16676&p=f&viewport=425%2C501%2C0.08&t=NyRUNKkdRcQnUDbK-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=7%3A16676&show-proto-sidebar=1">Clique aqui para ver protótipo Figma →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/tourmate.svg' %}" alt="Tourmate">
+            </div>
+          </div>
+
+          <h3>TourMate – Seu guia turístico inteligente</h3>
+          <p>O TourMate é um app auxiliar de turismo planejado para possuir integração com APIs de geolocalização e Inteligências Artificiais. Ideal para turistas que buscam praticidade, autonomia e experiências únicas.</p>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://www.figma.com/proto/v9ycfmshBuwYmrkYf4dZve/UpStage?page-id=0%3A1&node-id=1-4929&p=f&viewport=744%2C452%2C0.07&t=yjXHcUKW6wvYR9GX-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A4929">Clique aqui para ver protótipo Figma →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/upstage.svg' %}" alt="UpStage">
+            </div>
+          </div>
+
+          <h3>UpStage – A ponte entre estudantes e o mercado</h3>
+          <p>O UpStage é um projeto de plataforma de estágios que visa fornecer um ambiente de contato entre empresas e candidatos, possuindo também recomendações de professores. É mais do que um repositório de vagas — é um espaço de crescimento e oportunidades.</p>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://www.figma.com/proto/x1PFbqyTtH0Nug9teLrMbZ/Baviera-Pizzaria---Mobile?page-id=0%3A1&node-id=1-210&viewport=89%2C800%2C0.54&t=JvZCheZr2FFc9jUM-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A210&show-proto-sidebar=1">Clique aqui para ver protótipo Figma →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/baviera.svg' %}" alt="Baviera Pizzaria" class="projeto-img-rec">
+            </div>
+          </div>
+
+          <h3>Baviera Pizzaria – Mobile</h3>
+          <p>O protótipo mobile da Baviera Pizzaria foi pensado para entregar rapidez, praticidade e apetite visual. A interface é enxuta, com foco na navegação fluida e na ação rápida do usuário: escolher o sabor, personalizar o pedido e finalizar a compra com poucos toques.</p>
+        </div>
+      </div>
+
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://www.figma.com/proto/wd78FcXal7dhLSKlZZBqnc/Baviera-Pizzaria?page-id=0%3A1&node-id=1-136&viewport=513%2C558%2C0.25&t=Ljs8fDE6V3KhV3lR-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A136&show-proto-sidebar=1">Clique aqui para ver protótipo Figma →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/baviera.svg' %}" alt="Baviera Pizzaria" class="projeto-img-rec">
+            </div>
+          </div>
+
+          <h3>Baviera Pizzaria – Desktop</h3>
+          <p>A versão desktop amplia a experiência, oferecendo um layout mais espaçado e imersivo, ideal para quem acessa via computador. O design valoriza a apresentação das pizzas com imagens de alta qualidade, enquanto mantém a usabilidade simples e funcional.</p>
+        </div>
+      </div>
+
+      <section class="msg">
+        {% comment %} <img src="{% static 'home/images/figma.svg' %}" alt="Figma" class="logo-msg"> {% endcomment %}
+        <div class="msg-wrapper">
+          <h1>Do Papel à Experiência Real: Protótipos que Conectam Ideias a Soluções</h1>
+          <p>Esses protótipos foram elaborados com foco em experiência do usuário, acessibilidade e design estratégico, utilizando o Figma como principal ferramenta de criação e colaboração. Eles representam minha capacidade de transformar ideias em interfaces funcionais, intuitivas e visualmente impactantes.</p>
+        </div>
+      </section>
+       
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://github.com/Carlos-Cerqueira/Django-ToDoList">Clique aqui para ver repositório GitHub →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/github.svg' %}" alt="GitHub">
+              <p>GitHub</p>
+            </div>
+          </div>
+  
+          <h3>To Do List - Django</h3>
+          <p>Este projeto é uma aplicação web de lista de tarefas (To Do List) desenvolvida com Django e SQLite, projetada para ajudar usuários a organizar rotinas diárias, acompanhar seu progresso e manter o foco. A interface é limpa e funcional, permitindo criar, editar, marcar como concluída e excluir tarefas com facilidade.</p>
+        </div>
+      </div>
+  
+      <div class="item-container">
+        <div class="item projeto">
+          <div class="link-projeto">
+            <a target="_blank" href="https://github.com/Carlos-Cerqueira/opjs">Clique aqui para ver repositório GitHub →</a>
+            <div class="projeto-img-wrapper">
+              <img src="{% static 'home/images/github.svg' %}" alt="GitHub">
+              <p>GitHub</p>
+            </div>
+          </div>
+  
+          <h3>OPJS - React, React Native e TypeScript</h3>
+          <p>Este projeto foi desenvolvido como um sistema completo de pedidos online para lanchonete/pizzaria, com duas interfaces: uma versão web para gerência e um app mobile para clientes. Utiliza um stack moderno com React, React Native e TypeScript, focando em escalabilidade, desempenho e usabilidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experiencia">
+      <h1>Experiência Profissional</h1>
+      <div class="item-container">
+        <div class="item instituicao">
+          <div class="titulo-wrapper">
+            <img src="{% static 'home/images/codeso.svg' %}" alt="Codeso Tech" class="logo-instituicao">
+            <h1>Codeso Tech</h1>
+          </div>
+
+          <h2>Desenvolvedor Web Freelancer | Jun. 2023 - Dias Atuais</h2>
+          <ul>
+            <li>Desenvolvimento e implementação de websites responsivos</li>
+            <li>Integração de APIs e soluções de e-commerce</li>
+            <li>Manutenção e suporte de websites existentes</li>
+          </ul>
+        </div>
+
+        <div class="item instituicao">
+          <div class="titulo-wrapper">
+            <img src="{% static 'home/images/codeso.svg' %}" alt="Codeso Tech" class="logo-instituicao">
+            <h1>Codeso Tech</h1>
+          </div>
+
+          <h2>Desenvolvedor Mobile Freelancer | Jun. 2023 - Dias Atuais</h2>
+
+          <ul>
+            <li>Desenvolvimento de aplicativos mobile multiplataforma (Android e iOS), utilizando React Native, TypeScript e MongoDB</li>
+            <li>Criação de interfaces de usuário intuitivas e amigáveis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <img src="{% static 'home/images/maps-footer.svg' %}" alt="Icon-Maps">
+          <p>São José do Rio Preto - SP</p>
+        </li>
+        <li>
+          <img src="{% static 'home/images/github-footer.svg' %}" alt="Icon-GitHub">
+          <p><a target="_blank" href="https://github.com/Carlos-Cerqueira">github.com/Carlos-Cerqueira</a></p>
+        </li>
+        <li>
+          <img src="{% static 'home/images/linkedin-footer.svg' %}" alt="Icon-LinkedIn">
+          <p><a target="_blank" href="https://www.linkedin.com/in/carlos-eduardo-cerqueira-leite-323b4a227">LinkedIn - Carlos Cerqueira</a></p>
+        </li>
+        <li>
+          <img src="{% static 'home/images/google-footer.svg' %}" alt="Icon-Email">
+          <p><a target="_blank" href="mailto:devcarlosleite@gmail.com?subject=Contato%20através%20do%20portfólio&body=Olá%20Carlos,%0D%0A%0D%0AEncontrei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20possível%20colaboração.%20Por%20favor,%20retorne%20este%20e-mail%20quando%20possível.%0D%0A%0D%0AAtenciosamente,"
+            >devcarlosleite@gmail.com</a></p>
+        </li>
+      </ul>
+    </footer>
+
+    <script>
+      function setRealVH() {
+        const height = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+        const vh = height * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      }
+    
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(setRealVH, 150);
+      });
+    
+      window.addEventListener('orientationchange', setRealVH);
+      window.addEventListener('DOMContentLoaded', setRealVH);
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const instituicoes = document.querySelectorAll('.instituicao');
+        const projetos = document.querySelectorAll('.projeto');
+    
+        const observer = new IntersectionObserver(entries => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('revealed');
+            }
+          });
+        }, {
+          threshold: 0.1
+        });
+    
+        instituicoes.forEach((el, i) => {
+          el.classList.add(i % 2 === 0 ? 'instituicao-from-left' : 'instituicao-from-right');
+          observer.observe(el);
+        });
+    
+        projetos.forEach((projeto, i) => {
+          const wrapper = document.createElement('div');
+          wrapper.classList.add('projeto-container');
+          wrapper.style.width = '100%';
+          wrapper.style.display = 'flex';
+          wrapper.style.justifyContent = i % 2 === 0 ? 'flex-end' : 'flex-start';
+    
+          projeto.classList.add(i % 2 === 0 ? 'projeto-from-right' : 'projeto-from-left');
+
+          const alignRight = i % 2 === 0;
+          projeto.classList.add(alignRight ? 'projeto-from-right' : 'projeto-from-left');
+
+          const linkProjeto = projeto.querySelector('.link-projeto');
+          if (linkProjeto) {
+            linkProjeto.style.display = 'flex';
+            linkProjeto.style.justifyContent = alignRight ? 'flex-end' : 'flex-start';
+          }
+    
+          projeto.parentNode.insertBefore(wrapper, projeto);
+          wrapper.appendChild(projeto);
+    
+          observer.observe(projeto);
+        });
+      });
+    </script>
+  </body>
+</html>
