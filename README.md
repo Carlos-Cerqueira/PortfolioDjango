@@ -7,9 +7,9 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto tem como objet
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **React.js**
-- **Figma** (Design)
-- **Vite** (Build Tool)
+- **Python**
+- **Django**
+- **Figma** (Design
 
 ## 🧠 Habilidades Apresentadas
 
