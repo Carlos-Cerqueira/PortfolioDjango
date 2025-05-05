@@ -22,23 +22,12 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto tem como objet
 
 - **Início**: Apresentação pessoal com links para redes sociais.
 - **Sobre**: Breve descrição sobre mim e minhas formações acadêmicas.
-- **Habilidades**: Lista de linguagens, ferramentas e tecnologias que domino.
 - **Projetos**: Destaque de alguns dos meus principais projetos.
-- **Contato**: Formulário para entrar em contato diretamente comigo.
+- **Contato**: Minhas principais formas de contato.
 
 ## 🎨 Design
 
 O layout foi desenvolvido com atenção a detalhes visuais para diferenciar as seções da página e trazer um visual moderno e fluido.
-
-## 📁 Estrutura de Pastas
-
-📁 public
-📁 src
-┣ 📂 assets
-┣ 📂 components
-┣ 📂 styles
-┣ 📜 App.jsx
-┗ 📜 main.jsx
 
 ## 🛠️ Como Executar Localmente
 
