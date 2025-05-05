@@ -34,7 +34,7 @@ O layout foi desenvolvido com atenção a detalhes visuais para diferenciar as s
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/portfolio-carlos-cerqueira.git
+git clone https://github.com/seu-usuario/PortfolioDjango.git
 ```
 
 2. Acesse o diretório do projeto:
